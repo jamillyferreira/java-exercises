@@ -18,7 +18,22 @@ Este repositório contém uma coleção de exercícios desenvolvidos durante meu
     - LocalDate e DateTimeFormatter
     - Validações de datas
     - Múltiplas exceções
-
+  
+4. **[Sistema de Empréstimo de Livros](./04-book-loan-system)** - Sistema de Empréstimo de Livros
+    - Exceções checked personalizadas (BookNotFoundException, BookUnavailableException, LoanLimitsException)
+    - Encapsulamento e responsabilidades claras entre classes
+    - Cópia defensiva para proteger estado interno
+    - Constantes de classe para regras de negócio
+    - Limite de 3 empréstimos por usuário
+    - Validação de ISBN e disponibilidade
+      
+5. **[Sistema Bancário](./05-account-system)** - Sistema Bancário (Console App)
+    - Exceções customizadas para operações financeiras
+    - Composição entre classes Account e User
+    - Validação com expressões regulares
+    - Operações: depósito, saque, transferência, consulta de saldo
+    - Tratamento completo de erros com try-catch
+    - Separação em pacotes (entities, exceptions, application)
 ---
 
 ## Tecnologias e Conceitos

@@ -6,19 +6,34 @@ Este repositório contém uma coleção de exercícios desenvolvidos durante meu
 
 ## O que já fiz
 
-1. **[User Registration](./01-user-registration/)** - Sistema de cadastro com validações
+1. **[user-registration](./01-user-registration/)** - Sistema de cadastro com validações
     - Exceções customizadas
     - Validação de email e senha
 
-2. **[Age Validator](./02-age-validator/)** - Validador de idade
+2. **[age-validator](./02-age-validator/)** - Validador de idade
     - IllegalArgumentException
     - Validações numéricas
 
-3. **[Hotel Reservation System](./03-hotel-reservation-system/)** - Sistema de reservas
+3. **[hotel-reservation](./03-hotel-reservation-system/)** - Sistema de reservas
     - LocalDate e DateTimeFormatter
     - Validações de datas
     - Múltiplas exceções
-
+  
+4. **[book-loan-system](./04-book-loan-system)** - Sistema de Empréstimo de Livros
+    - Exceções checked personalizadas (BookNotFoundException, BookUnavailableException, LoanLimitsException)
+    - Encapsulamento e responsabilidades claras entre classes
+    - Cópia defensiva para proteger estado interno
+    - Constantes de classe para regras de negócio
+    - Limite de 3 empréstimos por usuário
+    - Validação de ISBN e disponibilidade
+      
+5. **[account-system](./05-account-system)** - Sistema Bancário (Console App)
+    - Exceções customizadas para operações financeiras
+    - Composição entre classes Account e User
+    - Validação com expressões regulares
+    - Operações: depósito, saque, transferência, consulta de saldo
+    - Tratamento completo de erros com try-catch
+    - Separação em pacotes (entities, exceptions, application)
 ---
 
 ## Tecnologias e Conceitos
